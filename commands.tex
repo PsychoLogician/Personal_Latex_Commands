@@ -1,0 +1,176 @@
+\usepackage{
+    amsmath, amsthm, amssymb,
+    comment, %for the ※ symbol
+    hyperref, %for innerlinks in a file 
+    bookmark, %for BOOKMARKS
+    mathtools,
+    siunitx,
+    esvect,
+    bm,
+    extarrows, %see https://ctan.yazd.ac.ir/macros/latex/contrib/extarrows/extarrows-test.pdf
+    import, % \import{./}{filename.tex}
+    cancel,
+        % $\cancelto{2}{1}$ 
+        % documentation: https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/cancel/cancel.pdf
+    tikz-cd, 
+        % diagrams and categories. 
+        % https://ctan.math.washington.edu/tex-archive/graphics/pgf/contrib/tikz-cd/tikz-cd-doc.pdf
+    %
+    setspace, 
+    }
+    
+\usetikzlibrary{decorations.pathmorphing} %for rightsquigarrow in tikzcd
+
+
+\newcommand{\diag}[1]{\rotatebox[origin=c]{45}{#1}}
+\newcommand{\dig}[1]{\begin{tikzcd}[ampersand replacement=\&] #1 \end{tikzcd}} 
+\newcommand{\new}[1]{\textcolor{blue}{#1}}
+\newcommand{\Prod}[3]{\displaystyle \prod_{#1}^{#2}#3}
+\newcommand{\pair}[2]{\langle #1,#2\rangle}
+\newcommand{\cpair}[2]{( #1,#2 )}
+\newcommand{\gcode}[1]{\ulcorner #1 \urcorner}
+\newcommand{\st}{\, s.t. \,}
+\newcommand{\iiff}{\leftrightarrow}
+\renewcommand{\j}{\cat{J}}
+\renewcommand{\i}{\cat{I}}
+
+% local
+  \newcommand{\cat}[1]{\mathbf{#1}}
+  \newcommand{\pull}[3]{p_{#1}(#2,#3)}
+  \newcommand{\prd}[2]{<#1,#2>}
+  % \renewcommand{\lim}[2]{\underset{\underset{#2}{\leftarrow}}{lim} #1_{#2}}
+  \newcommand{\colim}[2]{\underset{\underset{#2}{\rightarrow}}{lim} #1_{#2}}
+
+  \newcommand{\rest}[1]{\hspace{-3pt}\restriction _{#1}}
+  % \newcommand{\mor}[3]{#1 \xlongrightarrow{#2} \raisebox{0.57ex}{\text{$\xlongrightarrow{#2}$}}  #3}
+  \newcommand{\mor}[3]{#1 \xlongrightarrow{#2} #3}
+  % \newcommand{\twomor}[4]{
+  %   \begin{tikzcd}[ampersand replacement=\&]
+  %     \& #1 \arrow[r,"#2"] \arrow[r,"#3" below,yshift=0.7ex] \& #4 
+  %   \end{tikzcd}
+  % }
+% special symbols
+  \newcommand{\cont}[0]{\text{\textreferencemark}}
+  \newcommand{\0}{\emptyset}
+  \newcommand{\nat}{\mathbb{N}}
+  \newcommand{\vf}{\varphi}
+% 
+
+% arrows
+  \newcommand{\ar}{\longrightarrow}
+  \newcommand{\arr}{\Longrightarrow}
+  \newcommand{\xar}[1]{\xlongrightarrow{#1}}
+  \newcommand{\xart}[1]{\xlongrightarrow{\text{#1}}}
+  \newcommand{\xarr}[1]{\xLongrightarrow{#1}}
+  \newcommand{\xarrt}[1]{\xLongrightarrow{\text{#1}}}
+  \newcommand{\xeqt}[1]{\xlongequal{\text{#1}}}
+  \newcommand{\xeq}[1]{\xlongequal{#1}}
+
+% New theorems 
+  \newtheorem{lemma}{Lemma}
+  \newtheorem*{lemma*}{Lemma}
+  
+  \newtheorem{proposition}{Proposition}
+  \newtheorem*{proposition*}{Proposition}
+  
+  \newtheorem{thm}{Theorem}
+  \newtheorem*{thm*}{Theorem}
+
+  \newtheorem{remark}{Remark}
+
+  \newtheorem*{def*}{Definiton}
+  % \newtheorem*{arb*}{}
+
+% 
+
+% quantifiers
+  \newcommand{\ex}[1]{\exists_{#1}\,}
+  \newcommand{\all}[1]{\forall_{#1}\,}
+% 
+
+% abbreviations
+  \newcommand{\set}[1]{\{{#1}\}}
+  \newcommand{\func}[3]{#1: #2 \longrightarrow #3}
+  \newcommand{\funcc}[5]{
+        \begingroup
+        \setlength\arraycolsep{0pt}
+            \begin{array}[t]{ll}
+                #1: & #2 \to #3 \\ 
+                    & #4 \mapsto #5 
+            \end{array}
+        \endgroup
+    }
+  \newcommand{\andd}{\, \& \,}
+  \newcommand{\orr}{\, or \,}
+  \newcommand{\seq}[1]{#1_{0},#1_{1},\dots }
+  \newcommand{\oseq}[1]{#1_{0}\leq #1_{1}\leq \dots }
+% 
+
+
+% tabbing and indention
+  \newcommand{\ind}[1]{\text{} %\vspace{-10pt}
+    \begin{enumerate}%[leftmargin=15pt] %default was about 25pt
+        \begin{onehalfspace}  %doublespace, onehalfspace   % https://t.me/c/1752359800/915
+            #1   
+        \end{onehalfspace}
+    \end{enumerate}
+    \vspace{-15pt}
+  }
+  \newcommand{\tb}[1]{\text{} %\vspace{-10pt}
+  \begin{itemize}%[leftmargin=15pt] %default was about 25pt
+      \begin{onehalfspace}  %doublespace, onehalfspace   % https://t.me/c/1752359800/915
+          #1   
+      \end{onehalfspace}
+  \end{itemize}
+  \vspace{-15pt}
+}
+  \newcommand{\mnl}[1]{\tb{\item[] $#1$}}
+  \newcommand{\mnlt}[1]{\tb{\item[] #1}}
+
+% 
+
+% Category
+  % prototypes
+    % exponentiation diagram
+    % product diagrams 
+      \newcommand{\catcomma}{\text{$,$}}
+      \newcommand{\catexp}[4]{
+        \begin{tikzcd}[ampersand replacement=\&]
+          \& {#1}^{#2}  \& {#1}^{#2}\times {#2}  \arrow[r,"\epsilon"]   \& {#1}\\
+          \&  #3 \arrow[u,"\hat{#4}"]    \& #3 \times {#2}  \arrow[u,"\hat{#4} \times 1_{#2} "] \arrow[ur,"#4" below]  \&
+        \end{tikzcd}
+      }
+
+      \newcommand{\catexprev}[4]{
+        \begin{tikzcd}[ampersand replacement=\&]
+          \& {#1}^{#2}  \&  {#2} \times {#1}^{#2}  \arrow[r,"\epsilon"]   \& {#1}\\
+          \&  #3 \arrow[u,"\widehat{#4}"]    \& #2 \times #3  \arrow[u," 1_{#2} \times \widehat{#4} "] \arrow[ur,"#4" below]  \&
+        \end{tikzcd}
+      }
+
+      \newcommand{\catprod}[5]{
+        \begin{tikzcd}[ampersand replacement=\&]
+          \&           \& #3  \arrow[dl,"#4" above] \arrow[dr,"#5" ] \arrow[d, "\langle #4 \text{$,$} #5 \rangle",dotted ] \& \\
+          \& #1        \& #1 \times #2 \arrow[l,"\pi_{1}" ] \arrow[r,"\pi_{2}" below ]                                 \&   #2
+        \end{tikzcd}
+      }
+      \newcommand{\diagram}[3]{#1: \mathbf{#2} \to #3}
+      \newcommand{\parallelsquare}[8]{
+        \begin{tikzcd}[ampersand replacement=\&]
+          \& #1 \arrow[r,"#5"] \arrow[d,"#6"]        \& #2  \arrow[d,"#7"] \\
+          \& #3 \arrow[r,"#8"]                       \& #4 
+        \end{tikzcd}
+      }
+      \newcommand{\ntsquare}[8]{
+        \begin{tikzcd}[ampersand replacement=\&]
+          #1 \arrow[r,"#5"] \arrow[d,"#6" description]        \& #2  \arrow[d,"#7"] \arrow[dl,"\rotatebox{45}{=}",phantom]\\
+          #3 \arrow[r,"#8"]                       \& #4 
+        \end{tikzcd}
+      }
+      \newcommand{\simplediag}[1]{\begin{tikzcd}[ampersand replacement=\&] #1 \end{tikzcd}}
+
+% Localizing commands  of separate files
+  % A new null environment
+    \newenvironment{nullenv}{}{} %https://www.overleaf.com/learn/latex/Environments
+  % Command for localization
+    \newcommand{\myinput}[1]{\nullenv{\input{#1}}}
