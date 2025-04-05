@@ -1,1 +1,9 @@
-
+*.toc
+*.upa
+*.upb
+*.xdv
+*.fls
+*.log
+*.aux
+*.gz
+*.fdb_latexmk
