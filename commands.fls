@@ -1,0 +1,4 @@
+PWD d:\M\Thesis\Why Yanofski's Wrong\latex_commands
+INPUT C:\Users\lenovo\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+INPUT d:\M\Thesis\Why Yanofski's Wrong\latex_commands\commands.tex
+OUTPUT commands.log

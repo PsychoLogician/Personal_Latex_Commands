@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "commands.xdv" "commands.pdf" "commands" 0 -1
+  "commands.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "commands.pdf"
+  (rewritten before read)
+["xelatex"] 1740051233.93086 "d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex" "commands.xdv" "commands" 1740051234.71236 2
+  "C:/Users/lenovo/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1729263116 37559486 1019e51ac1b63d65d5e9a35f13e5f2d6 ""
+  "commands.aux" 1740051233 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "commands.tex" 1740051230 6163 4f82d1dcb6271804c8d3552f665c1612 ""
+  "d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex" 1740051230 6163 4f82d1dcb6271804c8d3552f665c1612 ""
+  (generated)
+  "commands.aux"
+  "commands.log"
+  "commands.xdv"
+  (rewritten before read)

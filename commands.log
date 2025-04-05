@@ -1,0 +1,247 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3) (preloaded format=xelatex 2024.10.18)  20 FEB 2025 15:03
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex"
+(d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:10: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage{
+                 
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:31: Undefined control sequence.
+l.31 \usetikzlibrary
+                    {decorations.pathmorphing} %for rightsquigarrow in tikzcd
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:31: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \usetikzlibrary{d
+                      ecorations.pathmorphing} %for rightsquigarrow in tikzcd
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--32
+[] 
+ []
+
+\c@lemma=\count184
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:79: LaTeX Error: Command \* already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79   \newtheorem*{lemma*}{
+                            Lemma}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:79: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79   \newtheorem*{lemma*}{L
+                             emma}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 79--80
+[] 
+ []
+
+\c@proposition=\count185
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:82: LaTeX Error: Command \* already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82   \newtheorem*{proposition*}{
+                                  Proposition}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:82: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82   \newtheorem*{proposition*}{P
+                                   roposition}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 82--83
+[] 
+ []
+
+\c@thm=\count186
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:85: LaTeX Error: Command \* already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85   \newtheorem*{thm*}{
+                          Theorem}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:85: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85   \newtheorem*{thm*}{T
+                           heorem}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 85--86
+[] 
+ []
+
+\c@remark=\count187
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:89: LaTeX Error: Command \* already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89   \newtheorem*{def*}{
+                          Definiton}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+d:/M/Thesis/Why Yanofski's Wrong/latex_commands/commands.tex:89: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89   \newtheorem*{def*}{D
+                           efiniton}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 89--91
+[] 
+ []
+
+)
+! Emergency stop.
+<*> ...nofski's Wrong/latex_commands/commands.tex"
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 100 strings out of 409554
+ 947 string characters out of 5771772
+ 1918148 words of memory out of 5000000
+ 22343 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 15i,0n,20p,193b,18s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

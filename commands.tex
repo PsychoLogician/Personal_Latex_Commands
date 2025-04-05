@@ -1,3 +1,11 @@
+% START A DOCUMENT
+% \documentclass{article} %book report
+
+% % Commands and abbreviations
+%   \input{latex_commands/commands.tex}
+
+% % If Persian...
+%   % \usepackage{xepersian} \settextfont{BNazanin.ttf}
 \usepackage{
     amsmath, amsthm, amssymb,
     comment, %for the ※ symbol
@@ -28,7 +36,7 @@
 \newcommand{\pair}[2]{\langle #1,#2\rangle}
 \newcommand{\cpair}[2]{( #1,#2 )}
 \newcommand{\gcode}[1]{\ulcorner #1 \urcorner}
-\newcommand{\st}{\, s.t. \,}
+% \newcommand{\st}{\, s.t. \,}
 \newcommand{\iiff}{\leftrightarrow}
 \renewcommand{\j}{\cat{J}}
 \renewcommand{\i}{\cat{I}}
@@ -68,12 +76,16 @@
 % New theorems 
   \newtheorem{lemma}{Lemma}
   \newtheorem*{lemma*}{Lemma}
-  
+  \newtheorem{plem}{لم}
+  \newtheorem*{plem*}{لم}
+
   \newtheorem{proposition}{Proposition}
   \newtheorem*{proposition*}{Proposition}
   
   \newtheorem{thm}{Theorem}
   \newtheorem*{thm*}{Theorem}
+  \newtheorem{pthm}{قضیه}
+  \newtheorem*{pthm*}{قضیه}
 
   \newtheorem{remark}{Remark}
 
